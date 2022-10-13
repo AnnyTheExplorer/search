@@ -1,17 +1,15 @@
 #header_logo {
-    background: #5AA322;
-    position: relative;
-    padding: 10px 10px 8px 10px;
-    margin: 0 auto 10px auto;
-    width: 98%;
-    min-width: 250px;
-    text-align: center;
-
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+	background: #5AA322;
+	position: relative;
+	padding: 10px 10px 8px 10px;
+	margin: 0 auto 10px auto;
+	width: 98%;
+	min-width: 250px;
+	text-align: center;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
 }
-
 
 #header_text {
 	font-size: 11.3px;
@@ -20,11 +18,10 @@
 	width: 100%;
 }
 
-
 #search {
 	display: inline-block;
 	position: relative;
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 #search fieldset {
@@ -33,52 +30,50 @@
 }
 
 #search #query, #search option {
-    height: 40px;
+	height: 40px;
 }
 
 #query {
-    clear: left;
-    display: block;
-    margin: 0 auto;
+	clear: left;
+	display: block;
+	margin: 0 auto;
 	width: 100%;
-    min-width: 250px;
+	min-width: 250px;
 	padding: 1%;
-    font-size: 200%;
-    vertical-align: middle;
+	font-size: 200%;
+	vertical-align: middle;
 }
 
 label {
-    width: auto;
-    float: none;
-    font-size: 90%;
-    vertical-align: top;
+	width: auto;
+	float: none;
+	font-size: 90%;
+	vertical-align: top;
 }
 
 #submit {
-  vertical-align: middle;
+	vertical-align: middle;
 	font-size:22px; 
 	font-family: helvetica, arial, sans-serif;
-  background: #70b922;
-  background: -webkit-gradient(linear, left top, left bottom, from(#70b922), to(#497724));
-  background: -moz-linear-gradient(center top, #70b922, #497724);
-  border: 1px solid #6eb537;
-  padding: 5px 20px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-
-  -webkit-box-shadow: 0 1px 0 #253d11;
-  -moz-box-shadow: 0 1px 0 #253d11;
-  cursor: pointer;
+	background: #70b922;
+	background: -webkit-gradient(linear, left top, left bottom, from(#70b922), to(#497724));
+	background: -moz-linear-gradient(center top, #70b922, #497724);
+	border: 1px solid #6eb537;
+	padding: 5px 20px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 1px 0 #253d11;
+	-moz-box-shadow: 0 1px 0 #253d11;
+	cursor: pointer;
 }
 
 #submit:hover {
-  background: #86dd27;
-  background: -webkit-gradient(linear, left top, left bottom, from(#86dd27), to(#5b952b));
-  background: -moz-linear-gradient(center top, #86dd27, #5b952b);
+	background: #86dd27;
+	background: -webkit-gradient(linear, left top, left bottom, from(#86dd27), to(#5b952b));
+	background: -moz-linear-gradient(center top, #86dd27, #5b952b);
 }
 
 #engine {
@@ -86,11 +81,13 @@ label {
 	text-align: left;
 	margin: 0 5px;
 }
+
 #engine p {
 	margin: 0;
 	font-size: 12px;
 	padding-left: 2px;
 }
+
 #engineInfo {
 	position: absolute;
 	width: 150px;
@@ -102,12 +99,15 @@ label {
 	-webkit-border-radius: 4px;
 	-webkit-box-shadow: inset 0 1px 3px #bbb;
 }
+
 #engineInfo p {
 	padding: 0;
 	margin: 0;
 }
 
-#engineInfo div { display: none;}
+#engineInfo div { 
+	display: none;
+}
 
 fieldset {
 	padding: 0;
@@ -115,9 +115,9 @@ fieldset {
 }
 
 .engineer {
-    width: 100%;
-    display: inline;
-    margin: 0 auto;
+	width: 100%;
+	display: inline;
+	margin: 0 auto;
 }
 
 #secondaryOptions {
@@ -128,76 +128,88 @@ fieldset {
 #permissions {
 	padding: 0;
 	margin: 0;
-    text-align: left !important;
+	text-align: left !important;
 }
 
-#permissions input { margin-right: 0;}
+#permissions input {
+	margin-right: 0;
+}
 
-#engines input { margin-right: 4px; margin-left: 0;}
-#engines p { margin: 0;}
+#engines input { 
+	margin-right: 4px; 
+	margin-left: 0;
+}
+
+#engines p { 
+	margin: 0;
+}
+
 #engines label { 
 }
 
 .statement {
-    padding-top: 2px;
-    padding-bottom: 8px;
+	padding-top: 2px;
+	padding-bottom: 8px;
 }
+
 .statement, .permoptions {
-    float: left;
-    margin-right: 6px;
+	float: left;
+	margin-right: 6px;
 }
 
 .permoptions label {
-    vertical-align: top;
+	vertical-align: top;
 }
 
 #engines { 
-    line-height: 2.25;
-    margin-left: -3px;
-    clear: left;
+	line-height: 2.25;
+	margin-left: -3px;
+	clear: left;
 }
 
 #engines .engine {
-  display: inline;
-  padding: 6px 0 6px 6px;
-  min-width: 100px;
-  border: 1px solid #ddd;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  min-height: 50px;
-  float: left;
-  width: 100%;
+	display: inline;
+	padding: 6px 0 6px 6px;
+	min-width: 100px;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	min-height: 50px;
+	float: left;
+	width: 100%;
 }
 
 #engines .engine {
-    text-align: left;
+	text-align: left;
 }
 
-#engines .focus{
-  border: 1px dashed rgb(155, 155, 155);
+#engines .focus {
+	border: 1px dashed rgb(155, 155, 155);
 }
 
 #engines .engine:hover {
-  background-color: #f0f0f0;
+	background-color: #f0f0f0;
 }
 
 #engines .engine, #engines label {
-  cursor: pointer;
+	cursor: pointer;
 }
+
 #engines .selected {
-  border-color: #cedcff;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-color: #cedcff;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
+
 #engines .selected, #engines .selected:hover {
-  background-color: #e7eeff;
+	background-color: #e7eeff;
 }
 
 #engines .engine:active {
-  -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 #engines .engineDesc {
@@ -206,13 +218,15 @@ fieldset {
 	color: #555;
 }
 
-#engines .engineDesc strong { font-size: 13px; color: #333;}
+#engines .engineDesc strong { 
+	font-size: 13px; color: #333;
+}
 
 #engines .engineButton {
 	display: inline-block;
 	line-height: 0.85;
 	padding-left: 3px;
-    float: right;
+	float: right;
 }
 
 #resultsRow {
@@ -234,11 +248,10 @@ fieldset {
 
 #resultsRow .images img:hover {
 	border: 1px solid rgba(31, 94, 153, 1.0);
-
 }
 
 #help {
-    margin: 35px auto 0 auto;
+	margin: 35px auto 0 auto;
 }
 
 #help p {
@@ -249,7 +262,7 @@ fieldset {
 	background-color: #FEE0A2;
 	padding: 10px;
 	margin-bottom: 15px;
-    width: 100%;
+	width: 100%;
 	-webkit-border-radius: 7px;
 	-webkit-box-shadow: inset 0 2px 3px rgba(128, 128, 128, 0.35);
 	-moz-border-radius: 7px;
@@ -259,9 +272,11 @@ fieldset {
 .column h1 {
 	border-bottom: 1px solid #ccc;
 }
-/*
-#remove, #add, #addressBar, #searchBar { display: none; }
-*/
+
+#remove, #add, #addressBar, #searchBar {
+        display: none; 
+}
+
 .wrong h1 {
 	padding-top: 0;
 	margin-top: 10px;
@@ -274,8 +289,8 @@ fieldset {
 }
 
 #translate #lang {
-    width: 60%;
-    margin-right: 4px;
+	width: 60%;
+	margin-right: 4px;
 }
 
 #footer {
@@ -284,4 +299,3 @@ fieldset {
 	padding: 8px 0 50px;
 	text-align: left;
 }
-
